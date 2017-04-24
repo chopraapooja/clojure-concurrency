@@ -79,3 +79,8 @@ Let's create problem :
 Think of agents like a queue of function that agent is applying to its state serially in the order in which they come
 
 send [Fixed size Thread-pool] and send-off [Growing Thread-pool]
+
+;; ==========================================================================================
+
+STM :
+STM allows updates to multiple places in memory and for those changes to become visible atomically to other threads at the same logical moment. Similar to database transactions, if for some reason all the updates can’t be made then none of the updates are made.
